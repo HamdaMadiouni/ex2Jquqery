@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exercice2</title>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="exer2.css">
+  
+  <script src="carnetAdresse.js"></script>
+  <script src="events.js"></script>
+</head>
+<body>
+<i class="fa fa-book">carnet d'adresse</i>
+<div id="contact-list">
+	
+</div>
+
+<div class="hide"  id="contact-details" >
+	<h3></h3>
+	<p></p>
+	<a href="#"  id="edit-contact"> Editer ce contact </a>
+</div>
+        <li>
+	  		<button type="button" id="add"><i class="fa fa-plus"></i></button>
+	  		<button type="button" id="clear"><i class="fa fa-trash"></i></button>
+	  	</li>
+<hr>
+<form id="contact-form" class="hide1" data-mode = "add">
+	<ul>
+		<li>
+		  	<label >titre</label>
+		  	<select id="titre"> 		
+		  		<option value="1">mr</option>
+		  		<option value="2">madame</option>
+		  		<option value="3">mlle</option>
+		  	</select>
+		</li>
+		<li>
+		 	<label>nom</label>
+		 	<input type="text" id="nom"><br>
+		</li>
+		<li>
+		 	<label>tel</label>
+		 	<input type="tel" id="tel"><br>
+		</li>
+	  	<li><button type="button" id="save">enregistrer</i></button></li>
+  </ul>
+  	
+  </form>
+  
+    <script src="index.js"></script>
+</body>
+</html>

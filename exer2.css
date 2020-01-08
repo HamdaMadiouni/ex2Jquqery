@@ -1,0 +1,16 @@
+body
+{
+	margin:auto;
+	margin-right: 15%;
+	margin-left: 15%;
+	background-color: #dccca2;
+}
+.hide ,.hide1
+{
+	display: none;
+}
+li 
+{
+	list-style: none;
+	
+}
